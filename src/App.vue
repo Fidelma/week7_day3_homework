@@ -1,9 +1,12 @@
 <template>
   <div id="app">
     <h1>Countries</h1>
+    <div class="main-container">
+
     <countries-list :countries='countries'></countries-list>
     <country-detail :selectedCountry='selectedCountry'></country-detail>
 
+  </div>
 
   </div>
 </template>
@@ -41,12 +44,8 @@ export default {
 </script>
 
 <style>
-/* #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-} */
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
 </style>
