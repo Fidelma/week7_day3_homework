@@ -11,7 +11,7 @@
 <script>
 export default {
   name: 'country-detail',
-  props: ['country']
+  props: ['selectedCountry']
 }
 </script>
 
